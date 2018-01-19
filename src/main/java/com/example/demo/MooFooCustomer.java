@@ -20,10 +20,11 @@ public class MooFooCustomer {
     private Long id;
 	
 	@NotBlank
-    @Column(unique = true)
+    @Column(name="moo")
     @Size(min = 1, max = 40)
     private String username;
 	
+	@Column(name="foo")
 	@Temporal(TemporalType.DATE)
     private Date date;
 

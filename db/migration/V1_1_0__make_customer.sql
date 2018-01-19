@@ -2,7 +2,8 @@
 
 CREATE TABLE customer2
 (
-    id    				 serial primary key,
+		id    				 BIGSERIAL primary key,
+    -- id    				 serial primary key,
     moo        VARCHAR(40) not null,
     foo        DATE
 );
